@@ -2,7 +2,7 @@
 
 # Genesis.RepeatWithBackoff
 
-[![Build status](https://ci.appveyor.com/api/projects/status/6xahxjp1ac5ly0g2?svg=true)](https://ci.appveyor.com/project/kentcb/genesis-repeatwithbackoff)
+[![Build status](https://ci.appveyor.com/api/projects/status/55k9at7jcdlw6chq?svg=true)](https://ci.appveyor.com/project/kentcb/genesis-repeatwithbackoff)
 
 ## What?
 
