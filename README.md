@@ -52,12 +52,6 @@ someObservable
         repeatCount: 3,
         strategy: n => TimeSpan.FromSeconds(3));
 
-// repeat 10 times, but only for InvalidOperationExceptions
-someObservable
-    .RetryWithBackoff(
-        retryCount: 10,
-        retryOnError: ex => ex is InvalidOperationException);
-
 // repeat with a custom scheduler (useful for tests)
 someObservable
     RepeatWithBackoff(scheduler: s);
